@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+
+<h2>Your Score: {{ score }} / {{ total }}</h2>
+<p>Submitted at: {{ time }}</p>
+
+<h3>Review Answers:</h3>
+
+{% for r in results %}
+    <div>
+        <p><strong>{{ loop.index }}. {{ r.question }}</strong></p>
+        <p>Your Answer: {{ r.your_answer }}</p>
+        <p>Correct Answer: {{ r.correct_answer }}</p>
+        <hr>
+    </div>
+{% endfor %}
+
+<a href="/">Take Test Again</a>
+
+</body>
+</html>

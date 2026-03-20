@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CBT Test</title>
+</head>
+<body>
+
+<h2>CBT Test</h2>
+
+<form action="/result" method="POST">
+
+    {% for q in questions %}
+        <p><strong>{{ loop.index }}. {{ q.text }}</strong></p>
+
+        {% set q_index = loop.index0 %}
+
+        {% for option in q.options %}
+            <input type="radio" name="q{{ q_index }}" value="{{ option }}" required>
+            {{ option }} <br>
+        {% endfor %}
+
+    {% endfor %}
+
+    <br>
+    <button type="submit">Submit</button>
+
+
+
+</form>
+
+</body>
+</html>
