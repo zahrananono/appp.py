@@ -52,7 +52,7 @@ def result():
         })
 
     # Record the time the quiz was submitted
-    
+    time_submitted = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return render_template(
         "result.html",
         score=score,
