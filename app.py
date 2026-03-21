@@ -12,12 +12,7 @@ questions = [
     Question("Capital of Nigeria?", ["A. Abuja", "B. Lagos", "C. Kano", "D. Ibadan"], "A. Abuja"),
     Question("2 + 2 = ?", ["A. 3", "B. 4", "C. 5", "D. 6"], "B. 4"),
     Question("Largest planet?", ["A. Earth", "B. Mars", "C. Jupiter", "D. Venus"], "C. Jupiter"),
-    Question("HTML stands for?", [
-        "A. Hyper Text Markup Language",
-        "B. High Text Machine Language",
-        "C. Home Tool Markup Language",
-        "D. Hyperlinks Text Mark"
-    ], "A. Hyper Text Markup Language"),
+    
     Question("Which is a browser?", ["A. Chrome", "B. Python", "C. Linux", "D. Windows"], "A. Chrome"),
     Question("5 x 6 = ?", ["A. 30", "B. 25", "C. 20", "D. 35"], "A. 30"),
     Question("Water freezes at?", ["A. 0°C", "B. 10°C", "C. 50°C", "D. 100°C"], "A. 0°C"),
