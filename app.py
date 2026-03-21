@@ -7,7 +7,7 @@ import random
 
 app = Flask(__name__)
 
-# List of questions
+
 questions = [
     Question("Capital of Nigeria?", ["A. Abuja", "B. Lagos", "C. Kano", "D. Ibadan"], "A. Abuja"),
     Question("2 + 2 = ?", ["A. 3", "B. 4", "C. 5", "D. 6"], "B. 4"),
