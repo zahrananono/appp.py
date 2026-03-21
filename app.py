@@ -37,6 +37,8 @@ def home():
 def result():
     score = 0
     results = []
+    percentage = (score / len(questions)) * 100
+    percentage=percentage
     
     # Iterate through the questions and calculate the score
     for index, question in enumerate(questions):
