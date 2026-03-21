@@ -6,7 +6,7 @@ from datetime import datetime
 import random
 
 app = Flask(__name__)
-
+# List of all quiz questions (12 total)
 # List of questions
 questions = [
     Question("Capital of Nigeria?", ["A. Abuja", "B. Lagos", "C. Kano", "D. Ibadan"], "A. Abuja"),
